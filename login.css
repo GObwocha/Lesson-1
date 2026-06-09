@@ -1,0 +1,11 @@
+body{
+    background-image: url(image1.jpeg);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+p{
+    color: brown;
+    font: times-new-roman;
+}
