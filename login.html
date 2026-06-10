@@ -2,26 +2,58 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Title</title>
+    <title>Login Page</title>
     <link href="try.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=equalizer" />
+    
 </head>
 <body>
-    <h1>
-        Login Page
-    </h1>
-    <p>
-        This is a form that is used to submit details.<br>
-    </p>
-    <form>
-        <label id="username-label">Username
-            <input type="text" id="username" placeholder="johndoe">
-        </label><br>
-        <label id="password-label">Password
-            <input type="password" id="password">
-        </label>
-        <button type="submit">
-            Submit Form
-        </button>
-    </form>
+    <div class="main-panel">
+
+        <div class="form-container">
+            <h1 class="main-panel-text" >Login</h1>
+            <p class="main-panel-text" >Don't have an account? <a href="">Create now</a></p>
+            <div class="email-elements">
+                <label class="labels" for="#email">E-mail</label>
+                <input id="email" class="inputs" type="text" placeholder="example@gmail.com">
+            </div>
+
+            <div class="password-elements">
+                <label class="labels" for="password">Password</label>
+                <input id="password" class="inputs" type="password" placeholder="@#*%&!">
+            </div>
+            <div class="other-form-elements">
+                <label class="labels" for="remember-me">Remember me</label>
+                <input id="remember-me" class="inputs" type="checkbox">
+                <a href="">Forgot Password?</a>
+            </div>
+            <button type="submit" id="submit-button" class="buttons">Login</button>
+        </div>
+
+        <div id="side-panel" class="side-card">
+            <h1>
+                Introducing new features
+            </h1>
+            <p>
+                Analyzing the previous trends ensures that businesses always make the right decision. And as the scale of the decision and it's impact magnifies the real reason why the company exists.
+            </p>
+            <div id="inside-side-panel-1" class="side-card">
+                <h1>
+                    Reach financial goals faster
+                </h1>
+                <p>
+                    Use your Venus card around the world with no hidden fees. Hold, transfer and spend money.
+                </p>
+                <button id="learn-more" class="buttons" type="button">Learn more</button>
+            </div>
+            <div id="inside-side-panel-2" class="side-card">
+                <span class="material-symbols-outlined">equalizer</span>
+                <p>
+                    Earnings
+                    $350.40
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
